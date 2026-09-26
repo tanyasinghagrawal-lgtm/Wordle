@@ -16,7 +16,9 @@ from typing import Dict, List, Set, Tuple
 # ==============================================================================
 # ⚙️ BOT CONFIGURATION
 # ==============================================================================
-BOT_TOKEN = "7964854170:AAGYQCez6moITKJGSnEkiCFdfm5gCf45sQ0
+BOT_TOKEN = "7964854170:AAGYQCez6moITKJGSnEkiCFdfm5gCf45sQ0"
+
+
 
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL", "").rstrip("/")
 PORT = int(os.environ.get("PORT", 8080))
